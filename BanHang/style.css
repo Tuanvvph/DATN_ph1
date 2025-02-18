@@ -1,0 +1,45 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.sidebar {
+    background-color: #e6e65e;
+    color: #151313;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar button {
+    font-size: 14px; /* Giảm kích thước chữ */
+    padding: 5px 10px; /* Giảm padding để nút ngắn lại */
+     /* Điều chỉnh độ rộng nút (hoặc bỏ đi nếu cần nút tự động co lại) */
+    border-radius: 5px; /* Giảm bo góc */
+    margin-bottom: 10px; /* Khoảng cách giữa các nút */
+    text-align: center; /* Canh giữa chữ */
+}
+
+.sidebar button:last-child {
+    margin-bottom: 0; /* Loại bỏ khoảng cách cuối */
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
